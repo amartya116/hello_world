@@ -130,7 +130,7 @@ icetx = Text(
 )
 ifgg1 = Text(
     name="ifgg1",
-    content="Manage HelloWorld data",
+    content="ATTEMPT one",
     description="Text element",
     styling=Styling(size=Size(margin_bottom="30px"), color=Color(text_color="#666", color_palette="default")),
     component_id="ifgg1",

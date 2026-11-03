@@ -1,6 +1,6 @@
 {
   "project": {
-    "id": "5202e648-634a-4e3e-b01b-1ffe33cb2d6b",
+    "id": "project_1793547751865_9m62jmvoj",
     "type": "Project",
     "schemaVersion": 6,
     "name": "Hello_World",
@@ -15,12 +15,12 @@
       "AgentDiagram": 0,
       "ComponentDiagram": 0,
       "DeploymentDiagram": 0,
+      "NNDiagram": 0,
       "UserDiagram": 0,
       "GUINoCodeDiagram": 0,
-      "KnowledgeGraphDiagram": 0,
       "QuantumCircuitDiagram": 0,
-      "NNDiagram": 0,
-      "BPMN": 0
+      "BPMN": 0,
+      "KnowledgeGraphDiagram": 0
     },
     "diagrams": {
       "ClassDiagram": [
@@ -218,7 +218,7 @@
                                   "components": [
                                     {
                                       "type": "textnode",
-                                      "content": "Manage HelloWorld data"
+                                      "content": "ATTEMPT one"
                                     }
                                   ]
                                 },
@@ -1168,7 +1168,7 @@
             "symbols": [],
             "version": "0.21.13"
           },
-          "lastUpdate": "2026-11-03T15:59:29.821Z"
+          "lastUpdate": "2026-11-03T16:10:19.217Z"
         }
       ]
     },
@@ -1193,7 +1193,7 @@
       "preferredInterface": "model"
     }
   },
-  "exportedAt": "2026-11-03T16:01:11.506Z",
+  "exportedAt": "2026-11-03T16:10:29.467Z",
   "version": "2.0.0",
   "editorVersion": "1.0.0"
 }
