@@ -148,7 +148,7 @@ i928z = Text(
 )
 iy68f = Text(
     name="iy68f",
-    content="Manage HelloWorld data",
+    content="do I need owner to make changes",
     description="Text element",
     styling=Styling(size=Size(margin_bottom="30px"), color=Color(text_color="#666", color_palette="default")),
     component_id="iy68f",
