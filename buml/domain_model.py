@@ -15,17 +15,24 @@ import datetime
 
 # Classes
 HelloWorld = Class(name="HelloWorld")
+TimeService = Class(name="TimeService")
 
 # HelloWorld class attributes and methods
-HelloWorld_id: Property = Property(name="id", type=IntegerType, is_external_id=True)
+HelloWorld_id: Property = Property(name="id", type=IntegerType, visibility="private", is_external_id=True)
+HelloWorld_Name: Property = Property(name="Name", type=StringType)
 HelloWorld_m_showHelloWorld: Method = Method(name="showHelloWorld", parameters=[], type=AnyType, implementation_type=MethodImplementationType.NONE)
-HelloWorld.attributes={HelloWorld_id}
-HelloWorld.methods={HelloWorld_m_showHelloWorld}
+HelloWorld_m_showCurrentTime: Method = Method(name="showCurrentTime", parameters=[], type=AnyType, implementation_type=MethodImplementationType.NONE)
+HelloWorld.attributes={HelloWorld_Name, HelloWorld_id}
+HelloWorld.methods={HelloWorld_m_showCurrentTime, HelloWorld_m_showHelloWorld}
+
+# TimeService class attributes and methods
+TimeService_m_getCurrentTime: Method = Method(name="getCurrentTime", parameters=[], type=DateTimeType, implementation_type=MethodImplementationType.NONE)
+TimeService.methods={TimeService_m_getCurrentTime}
 
 # Domain Model
 domain_model = DomainModel(
     name="Class_Diagram",
-    types={HelloWorld},
+    types={HelloWorld, TimeService},
     associations=set(),
     generalizations=set(),
     metadata=None
